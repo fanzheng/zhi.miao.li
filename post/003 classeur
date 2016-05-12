@@ -1,0 +1,11 @@
+{
+draft: false
+title: file.name
+date: '2016-05-12'
+
+}
+https://app.classeur.io/ 是一个写作工具，支持Markdown，支持实时发布到各个平台，例如WordPress，Blogger等等。
+现在只是测试，从https://app.classeur.io/ 写作，然后发布到Github，Github通过Webhook提醒我的服务器中hugo重新生成文章。
+
+这个方式，简直完美。
+
