@@ -25,7 +25,7 @@ Caddy是一个配置简单的服务器，使用Go语言开发，配置非常简�
 ### 使用Caddyfile
 
 ### 配置systemd
-
+使用systemd配置caddy为一个服务，保证caddy总是能正常运行。
 ## 配置Git
 
 ### 使用 Webhook 实时更新
@@ -34,6 +34,7 @@ Caddy是一个配置简单的服务器，使用Go语言开发，配置非常简�
 
 
 ## 下一步？
+使用其他工具进行进行写作。
 
 
 [^1]: http/2 是基于Google SPDY 的协议，目标是更快，更低的延迟。[https://http2.github.io](https://http2.github.io)
