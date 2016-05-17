@@ -1,5 +1,5 @@
 +++
-date = 2016-05-04T10:58:00"
+date = "2016-05-04T10:58:00"
 draft=false
 title="Hello Hugo"
 slug= "hello_hugo"
