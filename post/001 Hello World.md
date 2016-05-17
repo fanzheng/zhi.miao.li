@@ -1,7 +1,7 @@
 {
   "date": "2016-05-04T10:58:00",
   "draft": false,
-  "title": "Hello Hugo"
+  "title": "hello_hugo"
 }
 
 第一篇，当然是关于目前使用的博客系统。

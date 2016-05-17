@@ -1,3 +1,10 @@
+{
+  "date": "2016-05-07T10:58:00",
+  "draft": false,
+  "title": "使用Caddy Server和hugo还有git简单建设博客"
+  "slug": "blog_using_caddy_hugo_git"
+}
+
 使用Caddy Server和hugo还有git简单建设博客
 
 Caddy是一个配置简单的服务器，使用Go语言开发，配置非常简单，开箱即用。最喜欢的特色功能有:
