@@ -1,8 +1,8 @@
 {
-draft: false
-title: "Casper主题中文化"
-date: "2016-05-17"
-slug: "hugo_theme_casper"
+draft: false,
+title: "Casper主题中文化",
+date: "2016-05-17",
+slug: "hugo_theme_casper",
 }
 
 
