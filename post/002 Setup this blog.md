@@ -1,9 +1,9 @@
-{
-  "date": "2016-05-07T10:58:00",
-  "draft": false,
-  "title": "使用Caddy Server和hugo还有git简单建设博客",
-  "slug": "blog_using_caddy_hugo_git",
-}
++++
+date="2016-05-07T10:58:00"
+draft=false
+title="使用Caddy Server和hugo还有git简单建设博客"
+slug="blog_using_caddy_hugo_git"
++++
 
 使用Caddy Server和hugo还有git简单建设博客
 

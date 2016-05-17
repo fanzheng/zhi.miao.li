@@ -1,9 +1,9 @@
-{
-draft: false,
-title: "Casper主题中文化",
-date: "2016-05-17",
-slug: "hugo_theme_casper",
-}
++++
+date="2016-05-17"
+draft= false
+title= "Casper主题中文化"
+slug="hugo_theme_casper"
++++
 
 
 这个站使用的是Hugo建的，使用的主题是Casper，原主题是完整的英文版本，对其中进行了简单的优化:
