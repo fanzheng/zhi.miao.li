@@ -1,9 +1,10 @@
-+++
-date="2016-05-07T10:58:00"
-draft=false
-title="使用Caddy Server和hugo还有git简单建设博客"
-slug="blog_using_caddy_hugo_git"
-+++
+---
+date:"2016-05-07T10:58:00"
+draft:true
+title:"使用Caddy Server和hugo还有git简单建设博客"
+slug:"blog_using_caddy_hugo_git"
+
+---
 
 使用Caddy Server和hugo还有git简单建设博客
 
@@ -12,12 +13,14 @@ Caddy是一个配置简单的服务器，使用Go语言开发，配置非常简�
 2. 默认使用https，自动获取、配置、续期let's encrypt证书
 
 ## 准备工作
+
 1. Debian 8的VPS，我使用的VPS提供的Debian 8 86_X64_minimal,即64位最简配置。没有安装apache2，如果有安装apache2,需要卸载
 2. Hugo, 静态博客生成器
 3. Caddy, 服务器
 4. Git 用于管理博客内容
 
 ## 准备服务器
+
 1. 更新服务器和安装git
     apt-get update && apt-get upgrade
     apt-get install git
@@ -29,6 +32,7 @@ Caddy是一个配置简单的服务器，使用Go语言开发，配置非常简�
 访问caddy server的下载页面，feature勾上git和hugo。下载对应服务器版本。
 
 ## 配置Caddy
+
 ### 使用Caddyfile
 
 ### 配置systemd

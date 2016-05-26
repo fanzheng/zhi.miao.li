@@ -1,18 +1,18 @@
-+++
-author = ""
-comments = true
-date = "2016-05-18T02:08:49-04:00"
-draft = false
-image = ""
-menu = "main"
-share = true
-slug = "listen_miao_li"
-tags = ["Podcast"]
-title = "考拉FM、荔枝FM转换播客"
+---
+author: ""
+comments: true
+date: "2016-05-18T02:08:49-04:00"
+draft: false
+image: ""
+menu: "main"
+share: true
+slug: "listen_miao_li"
+tags: ["Podcast"]
+title: "考拉FM、荔枝FM、网易云音乐电台转换播客"
 
-+++
+---
 
-最近播客又开始火起来了，播客即Podcast，是乔布斯将 i`POD`，和broad`CAST`合并起来的。中国内独立播客相对较小，大量内容分散在喜马拉雅、荔枝FM、考拉FM、蜻蜓FM等播客托管网站，个人非常喜欢使用_泛用型_播客客户端订阅：
+最近播客又开始火起来了，播客即Podcast，是乔布斯将 i`POD`，和broad`CAST`合并起来的。中国内独立播客相对较小，大量内容分散在喜马拉雅、荔枝FM、考拉FM、蜻蜓FM等播客托管网站，个人更喜欢使用*泛用型*播客客户端订阅：
 
 1. 更好的内容管理
 2. 变速播放
@@ -21,7 +21,7 @@ title = "考拉FM、荔枝FM转换播客"
 
 喜马拉雅默认支持使用播客客户端订阅，参考少数派[http://sspai.com/33246](http://sspai.com/33246),将喜马拉雅专辑地址中`album`前面的数字（和多的那个`/`删掉)，并在URL后加上`.xml`。
 
-荔枝FM和考拉FM则默认不支持使用播客订阅，于是写了一个web应用，将荔枝FM和考拉FM中的_播客_或者_专辑_转换成播客客户端进行订阅的地址。使用方法如下:
+荔枝FM和考拉FM则默认不支持使用播客订阅，于是写了一个web应用，将荔枝FM和考拉FM中的*播客*或者*专辑*转换成播客客户端进行订阅的地址。使用方法如下:
 
 ## 荔枝FM
 一般荔枝FM的播客地址如
@@ -49,7 +49,7 @@ bookmarklet使用方法，新建一个浏览器书签，将上面的内容设为
 添加网易云音乐的主播电台支持，网易云音乐电台获取节目的API加密算法不知道，也是只能通过抓取页面的方式。
 网易云音乐电台地址一般是:
 
-	http://music.163.com/#/djradio?id=4020
+	http://music.163.com/#/djradio?id:4020
 
 获取URL中id后`4020`,在播客客户端中订阅以下URL即可
 	
